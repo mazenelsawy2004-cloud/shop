@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <title>متجر  قناه حبيشه</title>
+    <link rel="icon" href="photo/1.jpeg" type="image/x-icon">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="background-video1.mp4" type="video/mp4">
+    </video>
+    <header>
+      <div class="container top-nav">
+        <a href="#"><img src="photo/navbar-removebg-preview.png" alt="Logo" class="logo"></a>
+        <form action="" class="search">
+          <input type="search" placeholder="search of products...." name="search">
+          <button type="submit">search</button>
+        </form>
+        <div class="cart-header">
+          <div class="icon-cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-count">0</span>
+          </div>
+          <div class="tottal-price">
+            <p>my cart:</p>
+            <p class="price-cart-head">$0.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="links-container">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About us</a>
+        <a href="#">Contact</a>
+        <div class="login-sighnup">
+          <a href="#">Login</a>
+          <a href="#">Sign up</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="cart">
+      <div class="top-cart">
+        <h3>my cart <span>(0 item in cart)</span></h3>
+        <span><i class="fa-regular fa-circle-xmark"></i></span>
+      </div>
+      <div class="items-in-cart"></div>
+      <div class="bottom-cart">
+        <div class="total">
+          <p>cart subtotal:</p>
+          <p class="price-cart-total">$0.00</p>
+        </div>
+        <div class="button-cart">
+          <a href="#" class="btn-cart">Proceed to Checkout</a>
+          <button class="btn-cart trans-bg">shop more</button>
+        </div>
+      </div>
+    </div>
+
+   <div class="item-details">
+    <div class="container">
+      <div class="item-img">
+        <div class="big-img">
+        <img src="photo/awesome 64gb 6r 4200 1.jpg" alt="awesome">
+        </div>
+        <div class="small-imgs">
+
+          <img src="photo/awesome 64gb 6r 4200 1.jpg" alt="awesome">
+          <img src="photo/awesome 64gb 6r 4200 2.jpg" alt="awesome">
+        </div>
+
+
+   </div>
+   <div class="details-item">
+      <h1 class="name">orignal mobile android dual sim smart phone g3</h1>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+      <div class="price">
+        <p><span>4200$</span></p>
+        <p class="old-price">4900$</p>
+      </div>
+        <h5>availability: <span>In stock</span></h5>
+        <h5>sku: <span>awesome 64gb 6r 4200</span></h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error illum accusantium dicta, nisi qui harum natus adipisci, doloribus, optio quidem quis amet neque iure quia in voluptatibus distinctio eius excepturi sint mollitia molestiae at. Quam quos, eveniet, nostrum similique soluta animi ipsum exercitationem suscipit ex inventore debitis assumenda sint?</p>
+        <h4>Hurry up!  only 10 left in stock</h4>
+        <div class="quantity">
+          <button class="minus">-</button>
+          <input type="number" value="1" min="1">
+          <button class="plus">+</button>
+        </div>
+        <button class="add-to-cart">add to cart</button>
+   
+<div class="icon">
+  <span class="wishlist-icon" data-tooltip="Add to Wishlist">
+    <i class="fa-regular fa-heart"></i>
+  </span>
+  <span class="share-icon" data-tooltip="Share">
+    <i class="fa-solid fa-share-nodes"></i>
+  </span>
+  <span class="compare-icon" data-tooltip="Compare">
+    <i class="fa-solid fa-sliders"></i>
+  </span>
+  <span class="print-icon" data-tooltip="Print">
+    <i class="fa-solid fa-print"></i>
+  </span>
+</div>
+     </div>
+   </div>
+   </div>
+</div>
+
+
+
+
+    <!-- ============ ON SALE PRODUCTS ============ -->
+    <section class="slide slide-sale">
+      <div class="container">
+        <div class="sale-sec">
+          <div class="top-slide">
+            <h2>on sale <span>product</span></h2>
+            <div class="top-slide-right">
+              <a href="#">view all</a>
+              <div class="slider-arrows">
+                <button class="arrow-btn prev-btn" aria-label="previous">&#8249;</button>
+                <button class="arrow-btn next-btn" aria-label="next">&#8250;</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="products-wrapper">
+            <div class="products">
+
+              <div class="product">
+                <div class="img-product">
+                  <img src="photo/awesome 64gb 6r 4200 1.jpg" alt="awesome">
+                  <img class="img-hover" src="photo/awesome 64gb 6r 4200 2.jpg" alt="awesome">
+                  <span class="badge-sale">-20%</span>
+                  <button class="wishlist" aria-label="wishlist">&#9825;</button>
+                </div>
+                <div class="prod-info">
+                  <h3 class="name-product"><a href="#">awesome</a></h3>
+                  <p>64GB 6RAM</p>
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                  <div class="prices">
+                    <span class="price-new">4200$</span>
+                    <span class="price-old">4900$</span>
+                  </div>
+                  <button class="add-btn">add to cart</button>
+                </div>
+              </div>
+
+              <div class="product">
+                <div class="img-product">
+                  <img src="photo/redmi 15 pro 5g 256 12r 19353 1.jpg" alt="redmi 15 pro 5g">
+                  <img class="img-hover" src="photo/redmi 15 pro 5g 256 12r 19353 1.jpg" alt="redmi 15 pro 5g">
+                  <span class="badge-sale">-15%</span>
+                  <button class="wishlist" aria-label="wishlist">&#9825;</button>
+                </div>
+                <div class="prod-info">
+                  <h3 class="name-product"><a href="#">redmi 15 pro 5g</a></h3>
+                  <p>256GB 12RAM</p>
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                  <div class="prices">
+                    <span class="price-new">19350</span>
+                    <span class="price-old">22000</span>
+                  </div>
+                  <button class="add-btn">add to cart</button>
+                </div>
+              </div>
+
+              <div class="product">
+                <div class="img-product">
+                  <img src="photo/redmi 15c 256 8 8730 1.jpg" alt="redmi 15c">
+                  <img class="img-hover" src="photo/redmi 15c 256 8 8730 3.jpg" alt="redmi 15c">
+                  <span class="badge-sale">-20%</span>
+                  <button class="wishlist" aria-label="wishlist">&#9825;</button>
+                </div>
+                <div class="prod-info">
+                  <h3 class="name-product"><a href="#">redmi 15 c</a></h3>
+                  <p>256GB 8RAM</p>
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                  <div class="prices">
+                    <span class="price-new">8730</span>
+                    <span class="price-old">9500</span>
+                  </div>
+                  <button class="add-btn">add to cart</button>
+                </div>
+              </div>
+
+              <div class="product">
+                <div class="img-product">
+                  <img src="photo/redmi 15 256 8 10500 1.jpg" alt="redmi 15">
+                  <img class="img-hover" src="photo/redmi 15 256 8 10500 1.jpg" alt="redmi 15">
+                  <span class="badge-sale">-20%</span>
+                  <button class="wishlist" aria-label="wishlist">&#9825;</button>
+                </div>
+                <div class="prod-info">
+                  <h3 class="name-product"><a href="#">redmi 15</a></h3>
+                  <p>256GB 8RAM</p>
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                  <div class="prices">
+                    <span class="price-new">10500</span>
+                    <span class="price-old">10900</span>
+                  </div>
+                  <button class="add-btn">add to cart</button>
+                </div>
+              </div>
+
+              <div class="product">
+                <div class="img-product">
+                  <img src="photo/redmi a7pro 64 4 6200 1.jpg" alt="redmi a7 pro">
+                  <img class="img-hover" src="photo/redmi a7pro 64 4 6200 1.jpg" alt="redmi a7 pro">
+                  <span class="badge-sale">-20%</span>
+                  <button class="wishlist" aria-label="wishlist">&#9825;</button>
+                </div>
+                <div class="prod-info">
+                  <h3 class="name-product"><a href="#">redmi a7 pro</a></h3>
+                  <p>64GB 4RAM</p>
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                  <div class="prices">
+                    <span class="price-new">6200</span>
+                    <span class="price-old">6999</span>
+                  </div>
+                  <button class="add-btn">add to cart</button>
+                </div>
+              </div>
+
+              <div class="product">
+                <div class="img-product">
+                  <img src="photo/infinix smart 20 256 8.jpg" alt="infinix smart 20">
+                  <img class="img-hover" src="photo/infinix smart 20 64 8 2 6900.jpg" alt="infinix smart 20">
+                  <span class="badge-sale">-20%</span>
+                  <button class="wishlist" aria-label="wishlist">&#9825;</button>
+                </div>
+                <div class="prod-info">
+                  <h3 class="name-product"><a href="#">infinix smart 20</a></h3>
+                  <p>64GB 4RAM</p>
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                  <div class="prices">
+                    <span class="price-new">6900</span>
+                    <span class="price-old">7400</span>
+                  </div>
+                  <button class="add-btn">add to cart</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <div class="newsletter">
+      
+      <div class="container">
+        <h2>subscribe to our newsletter</h2>
+        <p>Get the latest updates on new products and upcoming sales</p>
+        <form action="" class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" name="email" required>
+          <button type="submit">subscribe</button>
+        </form>
+      </div>
+    </div>
+
+   <footer class="footer-3d">
+
+  <div class="footer-top">
+
+    <div class="footer-box logo-box">
+      <h2>Habisha Store</h2>
+      <p>
+        Best Electronics Store For Phones, Tablets & Accessories.
+      </p>
+
+   <div class="lang-switcher">
+  <button data-lang="ar">🇪🇬 العربية</button>
+  <button data-lang="en">🇺🇸 English</button>
+  <button data-lang="fr">🇫🇷 Français</button>
+</div>
+    </div>
+
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Offers</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Support</h3>
+      <a href="#">Help Center</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Shipping</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Contact</h3>
+      <p>📍 Cairo, Egypt</p>
+      <p>📞 +20 100 123 4567</p>
+      <p>✉️ support@habisha.com</p>
+
+      <div class="socials">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>
+      © 2026 Habisha Store — All Rights Reserved
+    </p>
+  </div>
+
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="dynamic.js"></script>
+    <script src="product-details.js"></script>
+
+</body>
+</html>

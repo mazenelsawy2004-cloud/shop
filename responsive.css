@@ -1,0 +1,269 @@
+/* ============================================
+   RESPONSIVE STYLES - Habisha Store
+   حط الملف ده في نفس فولدر style.css
+   وضيفه في <head> بعد style.css مباشرة:
+   <link rel="stylesheet" href="responsive.css">
+   ============================================ */
+
+/* ---------- Tablet: 992px ---------- */
+@media (max-width: 992px) {
+  .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  .banner .container {
+    flex-wrap: wrap;
+  }
+
+  .banner-img {
+    flex: 1 1 45%;
+  }
+
+  .feature {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .feature-item {
+    flex: 1 1 45%;
+  }
+
+  .tablets-layout {
+    flex-direction: column;
+  }
+
+  .banner-img-2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* ---------- Tablet / Small laptop: 768px ---------- */
+@media (max-width: 768px) {
+  /* Header */
+  .top-nav {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .logo {
+    max-width: 110px;
+  }
+
+  .search {
+    order: 3;
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .search input {
+    width: 100%;
+  }
+
+  .cart-header {
+    margin-inline-start: auto;
+  }
+
+  .tottal-price {
+    display: none; /* نخفي السعر جنب الايقونة على الموبايل عشان المساحة */
+  }
+
+  /* Navigation links */
+  .links-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    row-gap: 8px;
+    padding: 8px 0;
+  }
+
+  .links-container a {
+    font-size: 14px;
+  }
+
+  .login-sighnup {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+  }
+
+  /* Cart sidebar */
+  .cart {
+    width: 85%;
+    max-width: 320px;
+  }
+
+  /* Slider section */
+  .slider .container {
+    flex-direction: column;
+  }
+
+  .slide-bar {
+    width: 100%;
+  }
+
+  .links-wrapper {
+    display: none; /* تظهر بس لما يدوس المستخدم على الايقونة لو فيه توجل بالجافاسكريبت */
+  }
+
+  .slide-swap {
+    width: 100%;
+  }
+
+  /* Feature section */
+  .feature-item {
+    flex: 1 1 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* Banners */
+  .banner-img {
+    flex: 1 1 100%;
+  }
+
+  /* Products */
+  .top-slide {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .top-slide h2 {
+    font-size: 20px;
+  }
+
+  .products {
+    display: flex;
+    overflow-x: auto;
+    gap: 12px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10px;
+  }
+
+  .product {
+    flex: 0 0 65%;
+    scroll-snap-align: start;
+  }
+
+  /* Tablets banner overlay */
+  .glass-overlay h3 {
+    font-size: 22px;
+  }
+
+  /* Newsletter */
+  .newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-top {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .lang-switcher {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .socials {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+/* ---------- Mobile: 480px ---------- */
+@media (max-width: 480px) {
+  .container {
+    width: 94%;
+  }
+
+  .logo {
+    max-width: 90px;
+  }
+
+  .links-container a {
+    font-size: 13px;
+  }
+
+  .cart {
+    width: 100%;
+    max-width: none;
+  }
+
+  .product {
+    flex: 0 0 80%;
+  }
+
+  .prod-info h3.name-product {
+    font-size: 14px;
+  }
+
+  .prices .price-new {
+    font-size: 15px;
+  }
+
+  .add-btn {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .top-slide h2 {
+    font-size: 18px;
+  }
+
+  .glass-overlay {
+    padding: 15px;
+  }
+
+  .glass-overlay h3 {
+    font-size: 18px;
+  }
+
+  .glass-overlay p {
+    font-size: 12px;
+  }
+
+  .banner-img img,
+  .banner-img-2 img {
+    height: auto;
+  }
+
+  #myVideo {
+    display: none; /* الفيديو تقيل على النت الموبايل، ممكن تستبدله بصورة */
+  }
+
+  .footer-box h2,
+  .footer-box h3 {
+    font-size: 16px;
+  }
+
+  .footer-box p,
+  .footer-box a {
+    font-size: 13px;
+  }
+}
+
+/* ---------- Extra small: 360px ---------- */
+@media (max-width: 360px) {
+  .product {
+    flex: 0 0 90%;
+  }
+
+  .feature-item img {
+    width: 40px;
+  }
+}
